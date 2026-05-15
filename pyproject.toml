@@ -1,0 +1,15 @@
+[project]
+name = "simplest-mcp"
+version = "0.1.0"
+description = "The absolute simplest MCP server"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.0.0"
+]
+
+[project.scripts]
+simple-calc = "server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
